@@ -43,10 +43,10 @@ function AnimalCrud() {
 
   const columns = [
     { field: "key", headerName: "ID", width: 250 },
-    { field: "name", headerName: "Nombre", width: 200 },
-    { field: "age", headerName: "Edad", width: 200 },
-    { field: "type", headerName: "Tipo de animal", width: 150 },
-    { field: "color", headerName: "Color", width: 150 },
+    { field: "name", headerName: "Nombre", width: 150 },
+    { field: "age", headerName: "Edad", width: 75 },
+    { field: "type", headerName: "Tipo de animal", width: 75 },
+    { field: "color", headerName: "Color", width: 100 },
     {
       field: "options",
       headerName: "Opciones",
@@ -118,7 +118,7 @@ function AnimalCrud() {
           flexDirection: "column",
           padding: "20px",
           background: "#fff",
-          marginTop: "50px",
+          marginTop: "30px",
         }}
       >
         <Button
@@ -129,7 +129,7 @@ function AnimalCrud() {
             handleOpen({});
           }}
           sx={{
-            marginBottom: "50px",
+            marginBottom: "30px",
           }}
         >
           Añadir Animal
@@ -138,7 +138,7 @@ function AnimalCrud() {
         <Box
           sx={{
             width: "65%",
-            height: "600px",
+            height: "450px",
             justifyContent: "center",
             display: "flex",
             alignItems: "center",
